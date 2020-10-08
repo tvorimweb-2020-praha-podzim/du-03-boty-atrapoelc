@@ -21,3 +21,121 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi {
+    display: flex;
+    
+}
+
+.vizual {
+    flex-basis: 335px;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    color: white;
+    padding: 30px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.slogan {
+    tab-size: 16px;
+    font-weight: 500;
+}
+
+.bota {
+    position: absolute;
+    top: 220px;
+    left: 80px;
+
+
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    
+    
+}
+.zaruka {
+    font-size: 12px;
+    position: absolute;
+    top: 490px;
+    left: 320px;
+    
+
+}
+.detaily {
+    flex-basis: 335px;
+    padding: 30px;
+    border: 1px solid grey;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+body {
+    max-height: 440px;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20rem;
+    background-color:grey;
+    
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.produkt {
+    color: #959595;
+
+}
+
+.popis {
+    border-bottom: 1px solid #06d7c1;
+    padding-bottom: 2rem;
+}
+
+.parametr {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.velikosti {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+.vybrana {
+    color: red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.tlacitko {
+    text-decoration: none;
+    color: white;
+    background-color: #f15f42;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+
+}
+
+.vybrana {
+    border: 1px solid red;
+    border-radius: 50%;
+}
