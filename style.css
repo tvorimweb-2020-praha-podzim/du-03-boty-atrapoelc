@@ -34,6 +34,8 @@ body {
     padding: 30px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    height: 440px;
+    position: relative;
     
 }
 
@@ -44,35 +46,24 @@ body {
 
 .bota {
     position: absolute;
-    top: 220px;
-    left: 80px;
-
-
+    bottom: 10px;
+    right: 10px;
 }
 
-.cena {
-    font-size: 28px;
-    font-weight: 500;
+.cenovka {
     position: absolute;
-    top: 450px;
-    left: 350px;
-    
-    
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
 }
-.zaruka {
-    font-size: 12px;
-    position: absolute;
-    top: 490px;
-    left: 320px;
     
-
-}
 .detaily {
     flex-basis: 335px;
     padding: 30px;
     border: 1px solid grey;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    position: relative;
 }
 
 body {
@@ -82,7 +73,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     margin-bottom: 20rem;
-    background-color:grey;
+    background-color: #f5f5f5;
     
 }
 
@@ -110,15 +101,21 @@ body {
 
 .velikosti {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type: none;
-    padding-right: 15px;
+    padding: 0;
+    margin: 0;
+
 }
 
 .vybrana {
     color: red;
     border-radius: 50%;
-    padding: 2px;
+    border: 1px solid red;
+    padding: 3px;
+    font-weight: 600; 
+    margin-top: -3px;   
+    
 }
 
 .tlacitko {
@@ -131,11 +128,10 @@ body {
     border-bottom-right-radius: 5%;
     text-transform: uppercase;
     padding: 1rem 2rem;
-    margin-top: 1rem;
-
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
 }
 
-.vybrana {
-    border: 1px solid red;
-    border-radius: 50%;
-}
+
+
